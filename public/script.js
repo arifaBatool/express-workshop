@@ -73,12 +73,17 @@ function addBlogpostsToPage (data) {
             postDiv.className = 'post';
 
             var postDetail = document.createElement('div');
-            postDetail.className = 'postDetail'
-            postDetail.innerHTML = blogpost;
+            postDetail.className = 'postDetail';
+            postDetail.innerHTML = getBlogpostsDate(blogpost);
 
             postDiv.appendChild(postText);
             postDiv.appendChild(postDetail);
             postContainer.appendChild(postDiv);
         }
     }
+}
+
+function getBlogpostsDate(timestamp) {
+    var d = new Date(Number(timestamp));
+    return d.toDateString();
 }
