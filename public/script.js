@@ -74,7 +74,7 @@ function addBlogpostsToPage (data) {
 
             var postDetail = document.createElement('div');
             postDetail.className = 'postDetail';
-            postDetail.innerHTML = getBlogpostsDate(blogpost);
+            postDetail.innerHTML = getSimpleDate(blogpost);
 
             postDiv.appendChild(postText);
             postDiv.appendChild(postDetail);
@@ -83,7 +83,7 @@ function addBlogpostsToPage (data) {
     }
 }
 
-function getBlogpostsDate(timestamp) {
+function getSimpleDate(timestamp) {
     var d = new Date(Number(timestamp));
     return d.toDateString();
 }
