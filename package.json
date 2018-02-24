@@ -1,0 +1,26 @@
+{
+  "name": "express-workshop",
+  "version": "1.0.0",
+  "description": "This is first version of nodejs and express workshop by nodegirls sydney",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifaBatool/express-workshop.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Arifa Batool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifaBatool/express-workshop/issues"
+  },
+  "homepage": "https://github.com/arifaBatool/express-workshop#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-formidable": "^1.0.0"
+  }
+}
