@@ -21,9 +21,7 @@ app.post('/create-post', function (req, res) {
         }
         else
             console.log(error);
-
     });
-
 });
 
 app.get('/get-posts', function (req, res) {
