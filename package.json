@@ -21,6 +21,7 @@
   "homepage": "https://github.com/arifaBatool/express-workshop#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "express-formidable": "^1.0.0"
+    "express-formidable": "^1.0.0",
+    "mustache-express": "^1.2.5"
   }
 }

@@ -59,7 +59,7 @@ create a template file in `views/post.mustache` like this:
 If you get stuck, check out the [example solution](https://github.com/node-girls/express-workshop-complete/tree/templating) :)
 
 ## Even More Stretch Goals:
-- Give your posts titles
+- Give your posts titles - Done
 - Add a post listing page
 - Render posts as Markdown
 - Yay!
